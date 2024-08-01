@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Ubuntu" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#efffff" border-bottom="2px #00BCD4 solid">
+        <mj-column width="125px" vertical-align="middle">
+            <mj-image border-radius="25px" alt="logo" width="100px" src="./assets/logo.png" /> 
+        </mj-column>
+        <mj-column width="300px"vertical-align="middle">
+            <mj-text font-size="48px">Scheduler</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#efffff">
+              <mj-column>
+        <mj-text font-size="32px" font-family="Ubuntu"> Confirmação de email</mj-text>
+        <mj-text font-size="16px" font-family="Ubuntu"> Olá -username-,</mj-text>
+        <mj-text font-size="14px" font-family="Ubuntu">Seu email foi utilizado para registrar uma conta no aplicativo Scheduler, utilize o código abaixo para confirmar seu registro:</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#efffff" border-bottom="4px #00BCD4 dashed">
+        <mj-column width="300px">
+            <mj-text letter-spacing="8px" align="center" container-background-color="#ffffff" font-family="Ubuntu" font-size="48px">-Codigo-</mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
